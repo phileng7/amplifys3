@@ -3,6 +3,8 @@ import './App.css';
 
 import { Storage } from 'aws-amplify';
 
+import { withAuthenticator } from 'aws-amplify-react';
+
 function App() {
   const [file, setFile] = useState({ fileUrl: '', file: '', filename: ''});
 
@@ -43,4 +45,4 @@ function App() {
   );
 }
 
-export default App;
+export default withAuthenticator(App, { includeGreetings:true });

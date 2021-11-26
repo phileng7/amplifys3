@@ -3,12 +3,28 @@
 
 const awsconfig = {
     "aws_project_region": "us-east-2",
-    "aws_cognito_identity_pool_id": "us-east-2:2962d6bb-196f-4c74-be40-d44ed12674b6",
+    "aws_cognito_identity_pool_id": "us-east-2:4933f85c-7e70-4d02-a038-7f0a6d68b33a",
     "aws_cognito_region": "us-east-2",
-    "aws_user_pools_id": "us-east-2_WEs7ftU74",
-    "aws_user_pools_web_client_id": "53vcbcj2uina5kh7bn0otgrv2k",
+    "aws_user_pools_id": "us-east-2_9kmH1TVVz",
+    "aws_user_pools_web_client_id": "4qp29p7jsumvkc71ukqm8jpmio",
     "oauth": {},
-    "aws_user_files_s3_bucket": "amplifys3bucket181300-dev",
+    "aws_cognito_username_attributes": [],
+    "aws_cognito_social_providers": [],
+    "aws_cognito_signup_attributes": [
+        "EMAIL"
+    ],
+    "aws_cognito_mfa_configuration": "OFF",
+    "aws_cognito_mfa_types": [
+        "SMS"
+    ],
+    "aws_cognito_password_protection_settings": {
+        "passwordPolicyMinLength": 8,
+        "passwordPolicyCharacters": []
+    },
+    "aws_cognito_verification_mechanisms": [
+        "EMAIL"
+    ],
+    "aws_user_files_s3_bucket": "amplifys3bucket125220-dev",
     "aws_user_files_s3_bucket_region": "us-east-2"
 };
 

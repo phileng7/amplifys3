@@ -1,0 +1,14 @@
+{
+  "resourceName": "amplifys3prj",
+  "policyUUID": "b6c352e5",
+  "bucketName": "amplifys3bucket",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

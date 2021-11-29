@@ -1,6 +1,6 @@
 {
   "resourceName": "amplifys3prj",
-  "policyUUID": "b6c352e5",
+  "policyUUID": "861b0ae3",
   "bucketName": "amplifys3bucket",
   "storageAccess": "auth",
   "guestAccess": [],
